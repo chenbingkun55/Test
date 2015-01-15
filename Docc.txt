@@ -1,0 +1,5 @@
+Python Log to Bigquery 日志工具步骤分析
+
+1. 提供一个Str接口，供C++ 传递Str 给Python
+2. Python 整理判断输入内容后整理合适的 BigQuery 插入数据。
+3. Python 调用BigQuery Insert 去写入。
